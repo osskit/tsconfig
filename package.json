@@ -1,6 +1,6 @@
 {
   "name": "@osskit/tsconfig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "official tsconfig used by osskit",
   "main": "tsconfig.json",
   "repository": "https://github.com/osskit/tsconfig.git",
