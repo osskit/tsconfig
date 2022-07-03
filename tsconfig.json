@@ -1,7 +1,6 @@
 {
   "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
-    // Use default node module resolution instead of node16 to take full advantage of esm because of https://github.com/microsoft/TypeScript/issues/49290
     "moduleResolution": "node",
     "lib": [
       "DOM",
