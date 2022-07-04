@@ -2,6 +2,7 @@
   "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
     "moduleResolution": "node",
+    "module": "ESNext",
     "lib": [
       "DOM",
       "DOM.Iterable",
