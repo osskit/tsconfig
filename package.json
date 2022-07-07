@@ -1,6 +1,6 @@
 {
   "name": "@osskit/tsconfig",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "official tsconfig used by osskit",
   "main": "tsconfig.json",
   "repository": "https://github.com/osskit/tsconfig.git",
@@ -11,8 +11,5 @@
   ],
   "engines": {
     "node": ">=18.0.0"
-  },
-  "dependencies": {
-    "@sindresorhus/tsconfig": "^3.0.1"
   }
 }

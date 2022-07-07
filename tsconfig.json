@@ -1,13 +1,33 @@
 {
-  "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
-    "moduleResolution": "node",
-    "module": "ESNext",
+    "target": "ESNext",
     "lib": [
       "DOM",
       "DOM.Iterable",
       "ESNext"
     ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "strict": true,
+    "moduleDetection": "force",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "declaration": true,
+    "pretty": true,
+    "newLine": "lf",
+    "stripInternal": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmitOnError": true,
+    "useDefineForClassFields": true,
     "noPropertyAccessFromIndexSignature": false
   },
   "ts-node": {
