@@ -18,9 +18,9 @@ yarn add --dev @osskit/tsconfig
 {
 	"extends": "@osskit/tsconfig",
 	"compilerOptions": {
-      "outDir": "dist"
+      		"outDir": "dist"
 	},
-    "include": ["src/**/*"]
+    	"include": ["src/**/*"]
 }
 ```
 
@@ -30,9 +30,9 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
 {
 	"extends": "@osskit/tsconfig",
 	"compilerOptions": {
-      "outDir": "dist",
-      "target": "ES2021"
+      		"outDir": "dist",
+      		"target": "ES2021"
 	},
-    "include": ["src/**/*"]
+    	"include": ["src/**/*"]
 }
 ```
