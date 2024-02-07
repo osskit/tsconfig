@@ -6,8 +6,8 @@
       "DOM.Iterable",
       "ESNext"
     ],
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "removeComments": true,
     "strict": true,
     "moduleDetection": "force",
@@ -29,6 +29,7 @@
     "noEmitOnError": true,
     "useDefineForClassFields": true,
     "noPropertyAccessFromIndexSignature": false
+		"noImplicitOverride": true
   },
   "ts-node": {
     "esm": true
