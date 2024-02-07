@@ -28,7 +28,7 @@
     "noUncheckedIndexedAccess": true,
     "noEmitOnError": true,
     "useDefineForClassFields": true,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
 		"noImplicitOverride": true
   },
   "ts-node": {
