@@ -29,7 +29,7 @@
     "noEmitOnError": true,
     "useDefineForClassFields": true,
     "noPropertyAccessFromIndexSignature": false,
-		"noImplicitOverride": true
+    "noImplicitOverride": true
   },
   "ts-node": {
     "esm": true
